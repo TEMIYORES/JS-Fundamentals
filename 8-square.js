@@ -8,4 +8,6 @@ if (args[0]) {
     console.log("X".repeat(num));
     i++;
   }
+} else {
+  console.log("Missing size");
 }
