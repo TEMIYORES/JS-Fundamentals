@@ -1,7 +1,7 @@
 const { argv } = require("node:process");
 
 if (argv[2]) {
-  console.log(argv);
+  console.log("Argument found");
 } else {
   console.log("No argument");
 }
