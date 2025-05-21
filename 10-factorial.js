@@ -1,11 +1,7 @@
 const { argv } = require("node:process");
 const args = argv.slice(2);
 
-if (args[0]) {
-  console.log(factorial(Number(args[0])));
-} else {
-  console.log(NaN);
-}
+console.log(factorial(Number(args[0])));
 
 function factorial(n) {
   let result = 1;
